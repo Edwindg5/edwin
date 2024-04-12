@@ -1,7 +1,7 @@
 package org.example.proyectomulti.controller;
 import org.example.proyectomulti.models.Ganado;
 
-public class VentaController {
+public class Ventacontroller {
     // Método para realizar venta de leche
     public void venderLeche(double cantidad) {
         // Lógica para registrar la venta de leche
