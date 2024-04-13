@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe14fb3-1386-4a20-8fd9-f936b02a4ef2" name="Changes" comment="5commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/VerDatosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/Becerro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/Toro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles.css" afterDir="false" />
+    <list default="true" id="ebe14fb3-1386-4a20-8fd9-f936b02a4ef2" name="Changes" comment="6commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/AgregarGanadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/RegistrarGanadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/BuscarGanadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/BuscarGanadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/BusquedaPorId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/DescripcionGanadoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/EliminarGanadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/EliminarGanadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/GanadoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/RegistroVacasPremiadasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/Ventacontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/Ventacontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/Ganado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/VacaPremiada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/models/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/agregarGanado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/registrarGanado.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/descripcionGanado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/descripcion_Ganado.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/ventas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/realizarVentas.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/RegistrarGanadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proyectomulti/controller/RegistrarGanadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/registrarGanado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/proyectomulti/registrarGanado.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712901352867</updated>
       <workItem from="1712901353987" duration="10757000" />
-      <workItem from="1712967814011" duration="6798000" />
+      <workItem from="1712967814011" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="1rcommit">
       <option name="closed" value="true" />
@@ -144,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712974952090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="6commit">
+      <option name="closed" value="true" />
+      <created>1713021916074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713021916074</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +143,7 @@
     <MESSAGE value="3commit" />
     <MESSAGE value="4commit" />
     <MESSAGE value="5commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="5commit" />
+    <MESSAGE value="6commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="6commit" />
   </component>
 </project>

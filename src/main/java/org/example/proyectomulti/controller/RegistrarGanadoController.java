@@ -1,23 +1,56 @@
 package org.example.proyectomulti.controller;
-
-import org.example.proyectomulti.models.Animal;
-
-import java.util.ArrayList;
-import java.util.List;
+import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.TextField;
 
 public class RegistrarGanadoController {
-    private List<Animal> listaGanado;
 
-    // Constructor
-    public RegistrarGanadoController() {
-        this.listaGanado = new ArrayList<>();
+    @FXML
+    private TextField nombreField;
+
+    @FXML
+    private TextField idField;
+
+    @FXML
+    private TextField pesoField;
+
+    @FXML
+    private TextField estadoSaludField;
+
+    @FXML
+    private TextField razaField;
+
+    @FXML
+    private void registrarGanado() {
+        String nombre = nombreField.getText();
+        int id = Integer.parseInt(idField.getText());
+        double peso = Double.parseDouble(pesoField.getText());
+        String estadoSalud = estadoSaludField.getText();
+        String raza = razaField.getText();
+
+        // Aquí puedes agregar la lógica para registrar el nuevo ganado en tu sistema
+        System.out.println("Ganado registrado:");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("ID: " + id);
+        System.out.println("Peso: " + peso);
+        System.out.println("Estado de Salud: " + estadoSalud);
+        System.out.println("Raza: " + raza);
+
+        // Mostrar mensaje de confirmación
+        mostrarAlerta("Registro Exitoso", "El ganado ha sido registrado correctamente.");
     }
 
-    // Método para agregar ganado
-    public void agregarGanado(String nombre, int id, double peso, String estadoSalud, String raza) {
-        Animal ganado = new Animal(nombre, id, peso, estadoSalud, raza);
-        listaGanado.add(ganado);
+    @FXML
+    private void salir() {
+        // Aquí puedes agregar la lógica para cerrar la ventana de registro de ganado
+        nombreField.getScene().getWindow().hide();
     }
 
-    // Otros métodos según requerimientos
+    private void mostrarAlerta(String titulo, String mensaje) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle(titulo);
+        alert.setHeaderText(null);
+        alert.setContentText(mensaje);
+        alert.showAndWait();
+    }
 }

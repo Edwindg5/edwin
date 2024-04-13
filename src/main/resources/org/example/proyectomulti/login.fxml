@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.proyectomulti.controller.MainController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.proyectomulti.controller.LoginController">
+    <children>
+        <Label layoutX="30.0" layoutY="30.0" text="Usuario:" />
+        <TextField fx:id="usuarioField" layoutX="100.0" layoutY="30.0" />
+        <Label layoutX="30.0" layoutY="70.0" text="Contraseña:" />
+        <PasswordField fx:id="contrasenaField" layoutX="100.0" layoutY="70.0" />
+        <Button layoutX="30.0" layoutY="110.0" mnemonicParsing="false" onAction="#login" text="Iniciar Sesión" />
+    </children>
+</AnchorPane>
