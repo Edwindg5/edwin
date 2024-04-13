@@ -1,10 +1,10 @@
 package org.example.proyectomulti.models;
 
-public class VacaPremiada extends Ganado {
+public class Vaca extends Animal {
     private String fechaPremiacion;
 
     // Constructor
-    public VacaPremiada(String nombre, int id, double peso, String estadoSalud, String raza, String fechaPremiacion) {
+    public Vaca(String nombre, int id, double peso, String estadoSalud, String raza, String fechaPremiacion) {
         super(nombre, id, peso, estadoSalud, raza);
         this.fechaPremiacion = fechaPremiacion;
     }

@@ -1,11 +1,11 @@
 package org.example.proyectomulti.controller;
-import org.example.proyectomulti.models.Ganado;
+import org.example.proyectomulti.models.Animal;
 import java.util.List;
 
 public class BuscarGanadoController {
     // Método para buscar ganado por nombre
-    public Ganado buscarPorNombre(List<Ganado> listaGanado, String nombre) {
-        for (Ganado ganado : listaGanado) {
+    public Animal buscarPorNombre(List<Animal> listaGanado, String nombre) {
+        for (Animal ganado : listaGanado) {
             if (ganado.getNombre().equals(nombre)) {
                 return ganado;
             }
@@ -13,8 +13,8 @@ public class BuscarGanadoController {
         return null;
     }
     // Método para buscar ganado por ID
-    public Ganado buscarPorId(List<Ganado> listaGanado, int id) {
-        for (Ganado ganado : listaGanado) {
+    public Animal buscarPorId(List<Animal> listaGanado, int id) {
+        for (Animal ganado : listaGanado) {
             if (ganado.getId() == id) {
                 return ganado;
             }

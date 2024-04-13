@@ -1,6 +1,6 @@
 package org.example.proyectomulti.models;
 
-public class Ganado {
+public class Animal {
     private String nombre;
     private int id;
     private double peso;
@@ -8,7 +8,7 @@ public class Ganado {
     private String raza;
 
     // Constructor
-    public Ganado(String nombre, int id, double peso, String estadoSalud, String raza) {
+    public Animal(String nombre, int id, double peso, String estadoSalud, String raza) {
         this.nombre = nombre;
         this.id = id;
         this.peso = peso;

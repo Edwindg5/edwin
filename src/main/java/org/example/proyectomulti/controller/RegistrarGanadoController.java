@@ -1,21 +1,21 @@
 package org.example.proyectomulti.controller;
 
-import org.example.proyectomulti.models.Ganado;
+import org.example.proyectomulti.models.Animal;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class AgregarGanadoController {
-    private List<Ganado> listaGanado;
+public class RegistrarGanadoController {
+    private List<Animal> listaGanado;
 
     // Constructor
-    public AgregarGanadoController() {
+    public RegistrarGanadoController() {
         this.listaGanado = new ArrayList<>();
     }
 
     // Método para agregar ganado
     public void agregarGanado(String nombre, int id, double peso, String estadoSalud, String raza) {
-        Ganado ganado = new Ganado(nombre, id, peso, estadoSalud, raza);
+        Animal ganado = new Animal(nombre, id, peso, estadoSalud, raza);
         listaGanado.add(ganado);
     }
 

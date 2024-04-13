@@ -1,5 +1,5 @@
 package org.example.proyectomulti.controller;
-import org.example.proyectomulti.models.Ganado;
+import org.example.proyectomulti.models.Animal;
 
 public class Ventacontroller {
     // Método para realizar venta de leche
@@ -8,7 +8,7 @@ public class Ventacontroller {
     }
 
     // Método para realizar venta de ganado
-    public void venderGanado(Ganado ganado) {
+    public void venderGanado(Animal ganado) {
         // Lógica para registrar la venta de ganado
     }
 
